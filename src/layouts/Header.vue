@@ -47,7 +47,7 @@ let toggleMobileNav = () => {
         class="absolute px-5 py-12 block z-30 top-0 left-0 w-full h-full bg-gradient-to-b from-theme-dark-blue via-theme-dark-blue-tp to-theme-dark-blue"
       >
         <div class="flex justify-between items-center">
-          <img src="/images/logo-bookmark-white.svg" alt="Logo" />
+          <a class="uppercase text-white hover:text-theme-primary transition duration-200" href="/">Renan Soares</a>
           <button @click="toggleMobileNav()" type="button" class="focus:outline-none">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x text-white" viewBox="0 0 16 16">
               <path
