@@ -13,7 +13,7 @@ import WhatsApp from "../components/WhatsApp.vue";
         </p>
         <p class="lg:text-xl mt-5 font-theme-content text-center lg:text-left">E-mail: renansoares.adv@gmail.com</p>
         <p class="lg:text-xl font-theme-content text-center lg:text-left">Contato: (21) 96972-5049</p>
-        <div class="mt-7">
+        <div class="mt-7 flex justify-center">
           <WhatsApp text="Entre em contato" />
         </div>
         <div class="flex justify-center lg:justify-start mt-10"></div>
@@ -24,7 +24,7 @@ import WhatsApp from "../components/WhatsApp.vue";
       </div>
     </section>
 
-    <section class="grid grid-cols-none lg:grid-cols-2 mt-16 pb-16 items-center">
+    <section class="grid grid-cols-none lg:grid-cols-2 mt-8 pb-16 items-center">
       <div class="lg:w-5/6 order-2 lg:order-none">
         <h1 class="xl:text-3xl font-bold font-theme-heading text-center lg:text-left">Dra. Nathally Lorraynne Frones OAB/SP 399.856</h1>
         <p class="lg:text-xl mt-10 font-theme-content text-center lg:text-left">
@@ -32,7 +32,7 @@ import WhatsApp from "../components/WhatsApp.vue";
         </p>
         <p class="lg:text-xl mt-5 font-theme-content text-center lg:text-left">E-mail: nfrones@gmail.com</p>
         <p class="lg:text-xl font-theme-content text-center lg:text-left">Contato: (21) XXXXX-XXXX</p>
-        <div class="mt-7">
+        <div class="mt-7 flex justify-center">
           <WhatsApp text="Entre em contato" />
         </div>
         <div class="flex justify-center lg:justify-start mt-10"></div>

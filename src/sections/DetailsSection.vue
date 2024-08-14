@@ -5,7 +5,7 @@
   <div id="features" class="container mx-auto px-5">
     <section class="pt-16 pb-8">
       <div class="grid w-4/5 md:w-3/5 mx-auto justify-center gap-6">
-        <h4 class="md:text-4xl font-semibold font-theme-heading text-center">Compromisso e responsabilidade com o cliente</h4>
+        <h2 class="text-3xl md:text-4xl font-theme-heading font-medium text-center">Compromisso e responsabilidade com o cliente</h2>
         <div class="flex items-center gap-x-5">
           <i class="fa-solid fa-circle text-xs"></i>
           <p class="font-theme-content lg:text-xl text-center lg:text-left">Cobrança apenas no sucesso da ação.</p>

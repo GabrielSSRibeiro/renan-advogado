@@ -6,7 +6,7 @@ import WhatsApp from "../components/WhatsApp.vue";
   <!-- Newsletter Section Start -->
   <div id="subscribe" class="bg-theme-primary mt-10">
     <div class="container w-full lg:w-2/5 mx-auto px-5">
-      <section class="py-10">
+      <section class="py-10 flex justify-center">
         <WhatsApp text="Não deixe de entrar em contato e conhecer seus direitos" />
       </section>
     </div>
