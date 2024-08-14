@@ -10,14 +10,18 @@ let toggleMobileNav = () => {
 
 <template>
   <!-- Navbar Start -->
-  <div class="container mx-auto px-5">
-    <header class="flex justify-between py-12 items-center">
-      <div>
-        <a class="uppercase hover:text-theme-primary transition duration-200" href="/">Renan Soares</a>
+  <div class="container mx-auto px-5 py-">
+    <header class="flex justify-center items-start">
+      <div class="flex justify-center items-start">
+        <img class="z-10 w-1/3" src="/images/logo.png" />
       </div>
 
-      <nav class="flex justify-end flex-col md:flex-row">
-        <!-- Menu Toggler -->
+      <!-- <div>
+        <a class="uppercase hover:text-theme-primary transition duration-200" href="/">Renan Soares</a>
+      </div> -->
+
+      <!-- <nav class="flex justify-end flex-col md:flex-row">
+        Menu Toggler
         <button @click="toggleMobileNav()" type="button" class="flex md:hidden focus:outline-none">
           <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
             <path
@@ -27,18 +31,18 @@ let toggleMobileNav = () => {
           </svg>
         </button>
 
-        <!-- Desktop Menu -->
+        Desktop Menu
         <ul class="space-x-10 font-theme-heading font-medium items-center hidden md:flex flex-col space-y-7 md:space-y-0 md:flex-row">
           <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#hero" v-smooth-scroll>Profissional</a></li>
           <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#features" v-smooth-scroll>Áreas de atuação</a></li>
           <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#subscribe" v-smooth-scroll>Contato</a></li>
-          <!-- <li
+          <li
             class="uppercase bg-theme-secondary px-6 py-2 text-white rounded shadow-md hover:bg-white border-2 border-transparent hover:border-theme-secondary hover:text-theme-secondary cursor-pointer transition duration-200"
           >
             <a href="#download-section" v-smooth-scroll>Download</a>
-          </li> -->
+          </li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
 
     <!-- Mobile Menu Start-->

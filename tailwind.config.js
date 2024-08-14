@@ -8,11 +8,12 @@ export default {
     },
     extend: {
       colors: {
-        "theme-primary": "gray",
-        "theme-secondary": "#FA5757",
+        "theme-primary": "#483D8B",
+        "theme-secondary": "#483D8B",
         "theme-grayish-blue": "#9194A1",
-        "theme-dark-blue": "#8B0000",
-        "theme-dark-blue-tp": "#800000",
+        "theme-dark-blue": "#9194A1",
+        "theme-dark-blue-tp": "#483D8B",
+        "theme-whats-app": "#25D366",
       },
     },
   },

@@ -1,65 +1,56 @@
 const features = [
   {
     id: 1,
-    name: "INQUÉRITO POLICIAL",
+    name: "Voo Atrasado",
     details: {
-      //   imageUrl: "images/illustration-features-tab-1.svg",
-      title: "Acompanhamento de inquérito policial, Notícia Crime e Investigação Defensiva.",
-      //   description: "",
-      link: "#",
+      icon: "fa-solid fa-clock",
+      title: "",
+      description:
+        "Em situações de atraso superior a 4 horas em voos, ou caso ocorra perda de compromissos pessoais ou de trabalho, você pode ter direito à indenização pelos transtornos e prejuízos enfrentados.",
+      whatsAppText: "Aconteceu comigo, gostaria de uma análise de caso!",
     },
   },
   {
     id: 2,
-    name: "AÇÃO PENAL",
+    name: "Voo Adiantado",
     details: {
-      //   imageUrl: "images/illustration-features-tab-2.svg",
-      title: "Defesa plena em processo de rito ordinário, sumário ou especial e Investigação Defensiva.",
-      //   description: "",
-      link: "#",
+      icon: "fa-solid fa-plane-departure",
+      title: "",
+      description:
+        "Cancelamentos de voos não informados dentro do prazo de 72 horas podem levar a indenizações por danos morais, especialmente se ocorrerem atrasos prolongados, perda de conexão, pernoite não planejado ou necessidade de transporte terrestre.",
+      whatsAppText: "Aconteceu comigo, gostaria de uma análise de caso!",
     },
   },
   {
     id: 3,
-    name: "SISTEMA DE LIBERDADES",
+    name: "Cancelamento de Voo",
     details: {
-      //   imageUrl: "images/illustration-features-tab-3.svg",
-      title: "Relaxamento de Prisão, Liberdade Provisória, Fiança Judicial, Revogação da Prisão Preventiva, Medidas Cautelares Pessoais.",
-      //   description: "",
-      link: "#",
+      icon: "fa-solid fa-plane-slash",
+      title: "",
+      description: "Relaxamento de Prisão, Liberdade Provisória, Fiança Judicial, Revogação da Prisão Preventiva, Medidas Cautelares Pessoais.",
+      whatsAppText: "Aconteceu comigo, gostaria de uma análise de caso!",
     },
   },
   {
     id: 4,
-    name: "EXECUÇÃO PENAL",
+    name: "Overbooking",
     details: {
-      //   imageUrl: "images/illustration-features-tab-1.svg",
-      title:
-        "Cálculo de Pena, Progressão de Regime, Livramento Condicional, Graça, Indulto, Anistia Comutação de Pena, Unificação de Penas, Defesa em Falta Grave, Remição de Pena/Trabalho/Educação.",
-      //   description: "",
-      link: "#",
+      icon: "fa-solid fa-user-group",
+      title: "",
+      description:
+        "Casos de embarque negado devido à falta de assentos na aeronave, com realocação em voos alternativos ou escalas não programadas, essa prática é frequente e gera direito à indenização por danos morais e materiais.",
+      whatsAppText: "Aconteceu comigo, gostaria de uma análise de caso!",
     },
   },
   {
     id: 5,
-    name: "RECURSOS",
+    name: "Bagagem Extraviada",
     details: {
-      //   imageUrl: "images/illustration-features-tab-2.svg",
-      title:
-        "Apelação, Recurso em Sentido Estrito, Embargos de Declaração, Embargos Infringentes, Recurso Especial – STJ, Recurso Extraordinário – STF e Agravo em Execução – VEP.",
-      //   description: "",
-      link: "#",
-    },
-  },
-  {
-    id: 6,
-    name: "CRIMES DIGITAIS",
-    details: {
-      //   imageUrl: "images/illustration-features-tab-3.svg",
-      title:
-        "Fraudes eletrônicas, Sequestro de dados digitais (ransomware), Invasão de dispositivo informático, Notícias fraudulentas e Crimes contra a honra em meio digital.",
-      //   description: "",
-      link: "#",
+      icon: "fa-solid fa-briefcase",
+      title: "",
+      description:
+        "Se sua bagagem foi perdida permanentemente, temporariamente ou danificada, existe a possibilidade de indenização por danos morais e também danos materiais sobre a mala e os itens em seu interior.",
+      whatsAppText: "Aconteceu comigo, gostaria de uma análise de caso!",
     },
   },
 ];

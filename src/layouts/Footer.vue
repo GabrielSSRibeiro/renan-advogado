@@ -2,9 +2,9 @@
 
 <template>
   <!-- Footer Start -->
-  <footer class="bg-theme-dark-blue py-10">
-    <div class="container mx-auto px-5">
-      <div class="grid md:grid-cols-2">
+  <footer class="bg-theme-dark-blue">
+    <div class="flex justify-center items-start">
+      <!-- <div class="grid md:grid-cols-2">
         <div class="flex flex-col md:flex-row md:space-x-12 items-center">
           <div class="mb-10 md:mb-0">
             <a class="uppercase text-white hover:text-theme-primary transition duration-200" href="/">Renan Soares</a>
@@ -23,6 +23,9 @@
             </li>
           </ul>
         </div>
+      </div> -->
+      <div class="flex justify-center items-start">
+        <img class="z-10 w-1/3" src="/images/logo.png" />
       </div>
     </div>
   </footer>
