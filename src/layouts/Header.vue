@@ -16,7 +16,7 @@ let toggleMobileNav = () => {
         <img class="z-10 w-1/2" src="/images/logo-horizontal.png" />
       </div>
 
-      <nav class="flex justify-end flex-col md:flex-row w-full">
+      <nav class="flex justify-end md:flex-row w-full">
         <!-- Menu Toggler -->
         <button @click="toggleMobileNav()" type="button" class="flex md:hidden focus:outline-none">
           <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
