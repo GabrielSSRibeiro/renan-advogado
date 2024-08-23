@@ -1,6 +1,7 @@
 <script setup>
 import faqs from "../data/faqs.js";
 import { ref } from "vue";
+import WhatsApp from "../components/WhatsApp.vue";
 
 let isOpen = ref(0);
 </script>
@@ -18,9 +19,14 @@ let isOpen = ref(0);
 
       <div class="mt-10 w-full lg:w-3/5 mx-auto">
         <ul class="shadow-lg">
-          <template v-for="(faq, index) in faqs" :key="faq.id">
+          <template v-for="faq in faqs" :key="faq.id">
             <li
-              @click="isOpen = faq.id"
+              @click="
+                () => {
+                  if (isOpen == faq.id) isOpen = null;
+                  else isOpen = faq.id;
+                }
+              "
               :class="isOpen === faq.id ? 'text-theme-secondary' : ''"
               class="font-theme-content font-medium text-xl cursor-pointer hover:text-theme-secondary py-5 flex justify-between items-center transition duration-200 bg-slate-100 px-6"
             >
@@ -35,14 +41,20 @@ let isOpen = ref(0);
                 <path fill="none" stroke="currentColor" stroke-width="3" d="M1 1l8 8 8-8" />
               </svg>
             </li>
-            <p v-show="isOpen === faq.id" class="bg-slate-50 px-6 font-theme-content text-md lg:text-lg py-5 text-gray-500 text-justify">
-              {{ faq.description }}
+            <p
+              v-show="isOpen === faq.id"
+              v-for="(desc, index) in faq.descriptions"
+              :key="index"
+              class="bg-slate-50 px-6 font-theme-content text-md lg:text-lg py-5 text-gray-500 text-justify"
+            >
+              {{ desc }}
             </p>
           </template>
         </ul>
-        <!-- <div class="flex justify-center mt-10">
-                    <LinkButton btn-type="primary" link="#" class="text-sm">More FAQs</LinkButton>
-                </div> -->
+      </div>
+
+      <div class="flex justify-center mt-16">
+        <WhatsApp text="Receba uma consulta gratuita" />
       </div>
     </section>
   </div>

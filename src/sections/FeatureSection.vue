@@ -6,7 +6,7 @@ import WhatsApp from "../components/WhatsApp.vue";
 <template>
   <!-- Features Section Start -->
   <div id="features" class="container mx-auto px-5">
-    <section class="pt-16 pb-8">
+    <section class="pt-16">
       <div v-for="feature in features" :key="feature.id" class="grid w-4/5 md:w-3/5 mx-auto mb-10 pb-10 items-center justify-center">
         <div class="flex items-center justify-center gap-5">
           <i :class="feature.details.icon" class="lg:text-xl"></i>

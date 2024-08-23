@@ -6,51 +6,41 @@ const features = [
       icon: "fa-solid fa-clock",
       title: "",
       description:
-        "Em situações de atraso superior a 4 horas em voos, ou caso ocorra perda de compromissos pessoais ou de trabalho, você pode ter direito à indenização pelos transtornos e prejuízos enfrentados.",
+        "Seu voo atrasou por mais de 4 horas? Perdeu conexões, compromissos importantes ou teve gastos inesperados? Você pode ter direito a uma indenização!  Atrasos excessivos geram transtornos e prejuízos, e estamos aqui para te ajudar a conseguir a compensação que você merece.",
       // whatsAppText: "Aconteceu comigo, gostaria de uma análise de caso!",
     },
   },
   {
     id: 2,
-    name: "Voo Adiantado",
+    name: "Cancelamento de Voo",
     details: {
-      icon: "fa-solid fa-plane-departure",
+      icon: "fa-solid fa-plane-slash",
       title: "",
       description:
-        "Cancelamentos de voos não informados dentro do prazo de 72 horas podem levar a indenizações por danos morais, especialmente se ocorrerem atrasos prolongados, perda de conexão, pernoite não planejado ou necessidade de transporte terrestre.",
+        "Teve seu voo cancelado sem aviso prévio e enfrentou um pesadelo no aeroporto?  Se o cancelamento não foi informado com pelo menos 72 horas de antecedência, você pode ter direito a uma indenização por danos morais e materiais.  Vamos analisar seu caso e lutar por seus direitos!",
       // whatsAppText: "Aconteceu comigo, gostaria de uma análise de caso!",
     },
   },
   {
     id: 3,
-    name: "Cancelamento de Voo",
-    details: {
-      icon: "fa-solid fa-plane-slash",
-      title: "",
-      description: "Relaxamento de Prisão, Liberdade Provisória, Fiança Judicial, Revogação da Prisão Preventiva, Medidas Cautelares Pessoais.",
-      // whatsAppText: "Aconteceu comigo, gostaria de uma análise de caso!",
-    },
-  },
-  {
-    id: 4,
     name: "Overbooking",
     details: {
       icon: "fa-solid fa-user-group",
       title: "",
       description:
-        "Casos de embarque negado devido à falta de assentos na aeronave, com realocação em voos alternativos ou escalas não programadas, essa prática é frequente e gera direito à indenização por danos morais e materiais.",
+        "Impediram você de embarcar por falta de assentos, mesmo com a passagem comprada?  Essa prática abusiva é chamada de overbooking e pode gerar sérios transtornos. Você tem direito a uma indenização pelos danos causados. Entre em contato e saiba como podemos te ajudar!        ",
       // whatsAppText: "Aconteceu comigo, gostaria de uma análise de caso!",
     },
   },
   {
-    id: 5,
+    id: 4,
     name: "Bagagem Extraviada",
     details: {
       icon: "fa-solid fa-briefcase",
       title: "",
       description:
-        "Se sua bagagem foi perdida permanentemente, temporariamente ou danificada, existe a possibilidade de indenização por danos morais e também danos materiais sobre a mala e os itens em seu interior.",
-      whatsAppText: "Aconteceu comigo, gostaria de uma análise de caso!",
+        "Teve a mala extraviada, danificada ou algum objeto específico roubado durante a viagem?  Essa situação gera enorme estresse e prejuízo, mas você não precisa passar por isso sozinho. Podemos te ajudar a conseguir a indenização que você merece por danos materiais e morais. ",
+      whatsAppText: "Não perca seus direitos! Entre em contato agora",
     },
   },
 ];

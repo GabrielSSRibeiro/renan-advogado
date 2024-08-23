@@ -10,18 +10,14 @@ let toggleMobileNav = () => {
 
 <template>
   <!-- Navbar Start -->
-  <div class="container mx-auto px-5 py-">
-    <header class="flex justify-center items-start">
-      <div class="flex justify-center items-start">
-        <img class="z-10 w-1/3" src="/images/logo.png" />
+  <div class="container mx-auto px-5">
+    <header class="flex justify-between items-center">
+      <div class="">
+        <img class="z-10 w-1/2" src="/images/logo-horizontal.png" />
       </div>
 
-      <!-- <div>
-        <a class="uppercase hover:text-theme-primary transition duration-200" href="/">Renan Soares</a>
-      </div> -->
-
-      <!-- <nav class="flex justify-end flex-col md:flex-row">
-        Menu Toggler
+      <nav class="flex justify-end flex-col md:flex-row w-full">
+        <!-- Menu Toggler -->
         <button @click="toggleMobileNav()" type="button" class="flex md:hidden focus:outline-none">
           <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
             <path
@@ -31,18 +27,16 @@ let toggleMobileNav = () => {
           </svg>
         </button>
 
-        Desktop Menu
-        <ul class="space-x-10 font-theme-heading font-medium items-center hidden md:flex flex-col space-y-7 md:space-y-0 md:flex-row">
-          <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#hero" v-smooth-scroll>Profissional</a></li>
+        <!-- Desktop Menu -->
+        <ul class="space-x-10 font-theme-heading font-medium items-center hidden md:flex text-sm">
           <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#features" v-smooth-scroll>Áreas de atuação</a></li>
-          <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#subscribe" v-smooth-scroll>Contato</a></li>
-          <li
-            class="uppercase bg-theme-secondary px-6 py-2 text-white rounded shadow-md hover:bg-white border-2 border-transparent hover:border-theme-secondary hover:text-theme-secondary cursor-pointer transition duration-200"
-          >
-            <a href="#download-section" v-smooth-scroll>Download</a>
+          <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#hero" v-smooth-scroll>Quem somos nós</a></li>
+          <li class="uppercase hover:text-theme-secondary transition duration-200">
+            <a href="#faq" v-smooth-scroll>Estou no aeroporto agora</a>
           </li>
+          <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#footer" v-smooth-scroll>Contato</a></li>
         </ul>
-      </nav> -->
+      </nav>
     </header>
 
     <!-- Mobile Menu Start-->
@@ -62,13 +56,16 @@ let toggleMobileNav = () => {
         </div>
         <ul class="uppercase text-white text-md tracking-widest items-center flex flex-col mt-14">
           <li class="hover:text-theme-secondary transition duration-200 py-4 border-t border-b border-theme-grayish-blue w-full text-center">
-            <a @click="toggleMobileNav()" href="#hero">Profissional</a>
-          </li>
-          <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
             <a @click="toggleMobileNav()" href="#features">Áreas de atuação</a>
           </li>
           <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
-            <a @click="toggleMobileNav()" href="#subscribe">Contato</a>
+            <a @click="toggleMobileNav()" href="#hero">Quem somos nós</a>
+          </li>
+          <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
+            <a @click="toggleMobileNav()" href="#faq">Estou no aeroporto agora</a>
+          </li>
+          <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
+            <a @click="toggleMobileNav()" href="#footer">Contato</a>
           </li>
           <!-- <li
             class="bg-transparent border-2 rounded px-6 py-2 mt-6 w-full text-center cursor-pointer hover:text-theme-secondary transition duration-200"

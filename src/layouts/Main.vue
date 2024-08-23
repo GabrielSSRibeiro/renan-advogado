@@ -13,11 +13,11 @@ import SubscribeSection from "../sections/SubscribeSection.vue";
 
   <FeatureSection />
 
-  <HeroSection />
-
   <DetailsSection />
+
+  <HeroSection />
 
   <FaqSection />
 
-  <SubscribeSection />
+  <!-- <SubscribeSection /> -->
 </template>

@@ -9,7 +9,7 @@ import Footer from "./layouts/Footer.vue";
 
   <Main />
 
-  <!-- <Footer /> -->
+  <Footer />
 </template>
 
 <style scoped></style>
