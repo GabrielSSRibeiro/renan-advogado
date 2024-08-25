@@ -13,7 +13,7 @@ let toggleMobileNav = () => {
   <div class="container mx-auto px-5">
     <header class="flex justify-between items-center">
       <div class="">
-        <img class="z-10 w-1/2" src="/images/logo-horizontal.png" />
+        <img class="z-10 w-1/2" src="/images/logo-horizontal.png" alt="Frones and Soares logo" />
       </div>
 
       <nav class="flex justify-end md:flex-row w-full">

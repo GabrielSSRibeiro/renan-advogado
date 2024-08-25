@@ -19,7 +19,7 @@ import WhatsApp from "../components/WhatsApp.vue";
         <div class="flex justify-center lg:justify-start mt-10"></div>
       </div>
       <div class="relative order-1 lg:order-none mb-20 lg:mt-0 lg:mb-0 lg:-mr-10">
-        <img class="z-10 ml-20 w-2/4" src="/images/profile.png" />
+        <img class="z-10 ml-20 w-2/4" src="/images/profile.png" alt="Soares profile picture" />
         <div class="-z-10 bg-theme-primary h-52 w-full sm:h-80 sm:w-full rounded-l-full absolute -right-28 md:-right-48 -bottom-8"></div>
       </div>
     </section>
@@ -38,7 +38,7 @@ import WhatsApp from "../components/WhatsApp.vue";
         <div class="flex justify-center lg:justify-start mt-10"></div>
       </div>
       <div class="relative order-1 lg:order-none mb-20 lg:mt-0 lg:mb-0 lg:-mr-10">
-        <img class="z-10 ml-20 w-2/4" src="/images/profile2.png" />
+        <img class="z-10 ml-20 w-2/4" src="/images/profile2.png" alt="Frones profile picture" />
         <div class="-z-10 bg-theme-primary h-52 w-full sm:h-80 sm:w-full rounded-l-full absolute -right-28 md:-right-48 -bottom-8"></div>
       </div>
     </section>
