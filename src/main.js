@@ -14,3 +14,11 @@ app.component("Button", Button);
 app.component("LinkButton", LinkButton);
 
 app.mount("#app");
+
+// SEO
+
+// https://www.npmjs.com/search?q=keywords:vue%20seo
+// https://www.youtube.com/watch?v=Op8Q8bUAKNc&list=WL&index=2
+// https://www.youtube.com/watch?v=b2Fuh6cBJes&list=WL&index=3
+// https://www.youtube.com/watch?v=qzkdP9z5DLY&list=WL&index=4
+// https://www.youtube.com/watch?v=El7CfgD_6XE&list=WL&index=5
